@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Band Baja Barat</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="new.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="head">
+    <div class="contact">
+      <span>+91-6786696997</span>
+      <span>+91-6889685699</span>
+    </div>
+    <div class="social">
+      <span>FOLLOW US :</span>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="img/bg1.jpg" alt="Hero Image" class="hero-img" />
+    <div class="hero-overlay">
+      <h1>BAND BAJA BARAT</h1>
+      <p>Making Your Special Moments Unforgettable</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="about-content">
+      <img src="img/hero.jpg" alt="About Us" />
+      <div>
+        <h2>About Us</h2>
+        <p>
+          At Band Baja Barat, we specialize in creating unforgettable weddings and events. 
+          From music to décor, we bring elegance, creativity, and energy to every celebration. 
+          Our dedicated team ensures every detail is perfect for your big day.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service">
+        <i class="fas fa-music"></i>
+        <h3>Live Band</h3>
+        <p>Traditional and modern music to set the vibe for your celebration.</p>
+      </div>
+      <div class="service">
+        <i class="fas fa-gift"></i>
+        <h3>Wedding Planning</h3>
+        <p>Complete wedding event management with creative ideas.</p>
+      </div>
+      <div class="service">
+        <i class="fas fa-lightbulb"></i>
+        <h3>Decor & Lighting</h3>
+        <p>Beautiful themes and lighting to make your event shine.</p>
+      </div>
+      <div class="service">
+        <i class="fas fa-camera"></i>
+        <h3>Photography</h3>
+        <p>Capturing memories that last a lifetime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Request Form -->
+<section class="service-request">
+  <h2>Book Our Services</h2>
+  <form class="service-form" action="#" method="post">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="tel" name="phone" placeholder="Phone Number" required />
+
+    <input type="date" name="event-date" placeholder="Event Date" required />
+
+    <select name="event-type" required>
+      <option value="" disabled selected>Select Event Type</option>
+      <option value="wedding">Wedding</option>
+      <option value="birthday">Birthday</option>
+      <option value="corporate">Corporate Event</option>
+      <option value="concert">Concert/Performance</option>
+      <option value="other">Other</option>
+    </select>
+
+    <select name="venue-type" required>
+      <option value="" disabled selected>Select Venue Type</option>
+      <option value="banquet-hall">Banquet Hall</option>
+      <option value="outdoor">Outdoor</option>
+      <option value="resort">Resort</option>
+      <option value="home">Home</option>
+      <option value="other">Other</option>
+    </select>
+
+    <input type="text" name="city" placeholder="City" required />
+    <input type="number" name="people" placeholder="Number of Guests" min="1" required />
+
+    <textarea name="notes" placeholder="Additional Notes..." rows="4"></textarea>
+    <button type="submit">Request Services</button>
+  </form>
+</section>
+
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="img/gallery1.jpg" alt="Gallery Image 1" />
+      <img src="img/gallery2.jpg" alt="Gallery Image 2" />
+      <img src="img/gallery3.jpg" alt="Gallery Image 3" />
+      <img src="img/gallery4.jpg" alt="Gallery Image 4" />
+      <img src="img/gallery5.jpg" alt="Gallery Image 5" />
+      <img src="img/gallery6.jpg" alt="Gallery Image 6" />
+      <img src="img/gallery7.jpg" alt="Gallery Image 7" />
+      <img src="img/gallery8.jpg" alt="Gallery Image 8" />
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+<!-- FAQ + Feedback Section -->
+<section class="faq-feedback-container">
+  <!-- FAQ Section -->
+  <div class="faq">
+    <h2>FAQ</h2>
+    <div class="faq-item">
+      <button class="faq-question">What services do you offer?</button>
+      <div class="faq-answer">
+        <p>We offer live band performances, wedding planning, decor & lighting, and photography services.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Do you provide custom event themes?</button>
+      <div class="faq-answer">
+        <p>Yes! We work with clients to create unique, personalized themes for every event.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Can we book the band online?</button>
+      <div class="faq-answer">
+        <p>Absolutely! You can book our services via our website or contact us directly via phone or email.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feedback Form -->
+  <div class="feedback">
+    <h2>Customer Feedback</h2>
+    <form class="feedback-form" action="#" method="post" enctype="multipart/form-data">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Share your experience..." rows="5" required></textarea>
+      
+      <!-- Star Rating -->
+      <div class="star-rating">
+        <span>Rate Us:</span>
+        <div class="stars">
+          <input type="radio" name="rating" id="star5" value="5" /><label for="star5">&#9733;</label>
+          <input type="radio" name="rating" id="star4" value="4" /><label for="star4">&#9733;</label>
+          <input type="radio" name="rating" id="star3" value="3" /><label for="star3">&#9733;</label>
+          <input type="radio" name="rating" id="star2" value="2" /><label for="star2">&#9733;</label>
+          <input type="radio" name="rating" id="star1" value="1" /><label for="star1">&#9733;</label>
+        </div>
+      </div>
+
+      <label for="imageUpload">Upload Images (optional):</label>
+      <input type="file" name="images" id="imageUpload" accept="image/*" multiple />
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Band Baja Barat. All rights reserved.</p>
+    <div class="social">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="new.js"></script>
+</body>
+</html>
